@@ -5,9 +5,8 @@ $user_name=$_POST['username'];
 $email=$_POST['email'];
 $pwd=$_POST['pwd'];
 $enc_pwd=md5($pwd);
-$nic=$_POST['nic'];
 $index_no=$_POST['index'];
-$sql = "INSERT INTO user_details(name,user_name,password,email,nic_no,index_no)
+$sql = "INSERT INTO user_details(name,user_name,password,email,index_no)
 VALUES ('$name','$user_name','$enc_pwd','$email','$nic','$index_no')";
 if($conn->query($sql)==TRUE){
     header('location:login.php');
