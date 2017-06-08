@@ -1,0 +1,269 @@
+.container>.navbar-header>.navbar-toggle>.icon-bar{
+    background-color:#337ab7;
+
+}
+#footer>#navf>li{
+    padding: 10px;
+}
+
+#footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-top: 4px solid #5cb12a;
+
+}
+
+#nav{
+    position:fixed;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 0px #5cb12a;
+    width: 100%;
+}
+#headlogo:hover{
+    color:#5cb12a;
+}
+#headlogo{
+    font-size:25px;
+}
+
+li>a:hover,li>a:active{
+    color:#5cb12a;
+    text-decoration: none;
+   
+}
+
+
+.navbar-collapse .nav li a:hover,.navbar-collapse .nav li a:visited,.navbar-collapse .nav li a:active{
+    
+    background-color: transparent;
+}
+
+li{
+    display:inline;  
+}
+
+#navbar{
+    font-size: 18px;
+}
+
+
+#sec1{ 
+    border-bottom: 4px solid #5cb12a;
+    color: #ffffff;
+    padding: 200px;
+    background-color: transparent;    
+}
+#txt{
+   background-color: #337ab7;
+    padding: 20px;
+     width: 75%; 
+    min-width: 200px;
+    
+}
+
+#sec2,#sec3{
+    height: 100vh;
+    margin-top: 10px;
+    color:  #337ab7;
+    padding: 100px;
+    background-color: #ffffff;
+
+}
+.glyphicon glyphicon-user:hover{
+    background-color:transparent;
+    
+}
+#imgt{
+    background-image:url(img/Library.jpg);
+    background-size: cover;
+    width: 100%;
+    background-size: 100% 100%;
+}
+#imgt1{
+    background-image:url(library.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#imgt2{
+    
+background-image:url(Library-with-a-book-ladde-014.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+/*login page css*/
+
+.loginmain{
+    background-color: #ffffff;
+    margin: auto;
+    margin-top: 8%;
+    width: 400px;
+    height: 500px;
+    box-shadow: 0px 2px 8px  #cccccc;
+    
+}
+#headlbl{
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color:#337ab7; 
+}
+#lgn{
+    color: #ffffff;
+}
+#lgn:hover{
+    text-decoration: none;
+}
+.form{
+    color: #337ab7;
+    padding: 40px;
+    margin-top: 10px;
+}
+
+/*profile*/
+.dropbtn {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 16px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    
+    position: relative;
+    display: inline-block;
+    
+
+    }
+.dropdown-content {
+    
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+   
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+   
+    padding:10px;
+    padding-top: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    text-decoration: none;
+    color:#5cb12a;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+/*Signup page*/
+.signmain{
+    margin: auto;
+ margin-top: 8%;
+    width: 400px;
+    box-shadow: 0px 2px 8px  #cccccc;
+    background-color: #ffffff;
+    
+}
+#headlbl{
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color:#337ab7; 
+}
+#lgn{
+    color: #ffffff;
+}
+#lgn:hover{
+    text-decoration: none;
+}
+.form{
+    color: #337ab7;
+    
+}
+#error{
+    color: #ff0000;
+    margin: 0;
+    padding: 10px;
+   text-align: center;
+    background-color: #ffffff;
+    
+}
+
+/* Profile */
+    
+#pro1{
+    
+    margin-top:100px; 
+  
+}
+h4,#pro2{
+    
+    text-align:center;
+    
+}
+
+#img:hover{
+    opacity: 0.5;
+    transition: opacity .1s ease-in;
+  
+}
+
+/*upload modal*/
+
+#imgprev,#ftu,#dtu,#upicn{
+    display: block;
+    margin: auto;
+
+}
+    
+/*lectures*/
+
+#probtn{
+  margin: auto;
+}
+#probtn a{
+margin: 10px    
+}
+#panel-body>a{
+    color: #3e8e41;
+}
+ 
+#active{
+    color: #5cb12a;
+}
+/*lecture materials*/
+h3{ 
+    display: block;
+    padding:100px;
+    margin: auto;
+}
+.glyphicon-education,.glyphicon-upload,.glyphicon-calendar{
+    text-align: center;
+    font-size: 50px;
+    color: #337ab7;
+    
+}
+.formdtu,.formevents{
+    display: block;
+    margin:auto;
+    text-align: center;
+    width: 300px;
+}
+
